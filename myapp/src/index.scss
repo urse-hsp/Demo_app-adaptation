@@ -13,3 +13,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+// 转换成vw的方案设置媒体查询超出宽度范围后固定body宽度，内容居中时，会出现样式过大影响查看的问题。
+@media screen and (min-width: 1024px) {
+  html {
+    max-width: 1024px;
+  }
+}

@@ -24,6 +24,17 @@ postcss-px-to-
 2 https://github.com/chendishen/react-base-mobile
 
 vw做法： 
+postcss-aspect-ratio-mini  主要用来处理固定宽高比；
+postcss-write-svg 主要用来处理1像素边框问题（该方法对圆角处理还未实现）；
+postcss-px-to-viewport 将px单位自动转换成viewport单位；
+postcss-flexbugs-fixes： flex
+postcss-viewport-units
+postcss-preset-env 兼容
+react-app-rewire-postcss 重写
+cssnano 能为你的 CSS 文件做多方面的的优化， 以确保最终生成的文件 对生产环境cssnano 来说体积是最小的
+cssnano-preset-advanced
+
+
 
 babel-eslint 需要使用到 ES2015 的语言规范，因此需要安装  ：
 eslint ： 不必要介绍了。可以直接到官网上查看
