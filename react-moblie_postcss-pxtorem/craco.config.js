@@ -38,7 +38,7 @@ module.exports = {
       mode: "extends",
       plugins: [
         pxtorem({
-          rootValue: 37.5, // 设计稿宽度/100，即分成多少份
+          rootValue: 75, // 设计稿宽度/100，即分成多少份
           unitPrecision: 5, // 小数精度
           propList: ["*"],
           selectorBlackList: [],

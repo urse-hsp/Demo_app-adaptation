@@ -3,8 +3,7 @@
 }
 
 .box {
-  width: 375px;
   height: 200px;
-  background: #f1f3f8;
+  background: red;
   font-size: 28px;
 }

@@ -56,6 +56,7 @@ export default class Login extends Component {
     const { canClick, time } = this.state;
     return (
       <div>
+        <div className="box"></div>123
         {/* 顶部导航区 */}
         <NavBar mode="light">手机验证码登录</NavBar>
         {/* 内容区域 */}
